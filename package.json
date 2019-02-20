@@ -1,0 +1,30 @@
+{
+  "name": "awb-api-wrapper",
+  "version": "0.0.1",
+  "description": "A simple wrapper around the AWB public API",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andrail/awb-api-wrapper"
+  },
+  "keywords": [],
+  "author": "Lukas Langen",
+  "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ]
+}
