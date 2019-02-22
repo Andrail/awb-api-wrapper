@@ -23,8 +23,8 @@ let config = {
     streetcode: 745,
     startyear: 2019,
     endyear: 2019,
-    startmonth: 2019,
-    endmonth: 2019
+    startmonth: 1,
+    endmonth: 1
 };
 
 let wrapper = new AwbApiWrapper(config);
